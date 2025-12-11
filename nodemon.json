@@ -1,0 +1,30 @@
+{
+  "watch": [
+    "src",
+    ".env",
+    "index.html"
+  ],
+  "ext": "ts,tsx,js,jsx,json,html,css",
+  "ignore": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "*.test.ts",
+    "*.test.js",
+    ".git"
+  ],
+  "delay": 500,
+  "verbose": true,
+  "execMap": {
+    "ts": "tsx",
+    "js": "node"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "events": {
+    "start": "echo '🚀 Server starting...'",
+    "restart": "echo '🔄 Server restarting due to file changes...'",
+    "crash": "echo '💥 Server crashed - waiting for changes...'"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Agent Workflow",
+  "description": "An intelligent agent that analyzes uploaded code and documents to generate and execute a custom processing workflow.",
+  "requestFramePermissions": []
+}
